@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bildoptimering</title>
 
 	<link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-	<img id="pic1" src="/media/man1.webp" alt="Svartklädd man med maskingevär">
 
+	<link rel="stylesheet" href="/css/glightbox.min.css" />
+	<script src="/js/glightbox.min.js" defer></script>
+
+	<script src="/js/script.js" defer></script>
+</head>
+
+<body>
+	<section>
+		<a href="/media/man1.webp" class="glightbox" data-gallery="men" data-alt="Svartklädd man med maskingevär" data-description="Hejhej">
+			<img src="/media/man1-mini.webp" alt="Svartklädd man med maskingevär">
+		</a>
+		<a href="/media/man2.webp" class="glightbox" data-gallery="men">
+			<img src="/media/man2-mini.webp" alt="">
+		</a>
+		<a href="/media/man3.webp" class="glightbox" data-gallery="men">
+			<img src="/media/man3-mini.webp" alt="">
+		</a>
+	</section>
+	<section>
+		<a href="/media/playground1.webp" class="glightbox" data-gallery="playgrounds">
+			<img src="/media/playground1.webp" alt="">
+		</a>
+		<a href="/media/playground2.webp" class="glightbox" data-gallery="playgrounds">
+			<img src="/media/playground2.webp" alt="">
+		</a>
+	</section>
 </body>
+
 </html>
